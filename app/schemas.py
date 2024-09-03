@@ -7,7 +7,7 @@ class OrderSchema(BaseModel):
     price: float
 
 class OrderUpdateSchema(BaseModel):
-    product_name: Optional[str]
-    quantity: Optional[int]
-    price: Optional[float]
-    status: Optional[str]
+    product_name: Optional[str] = None
+    quantity: Optional[int] = None
+    price: Optional[float] = None
+    status: Optional[str] = None
