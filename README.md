@@ -38,7 +38,8 @@ Este é um microsserviço de gerenciamento de pedidos para um sistema de e-comme
 
 ## Testes
 
-Para rodar os testes automatizados, execute:
+1. Para rodar os testes automatizados, execute:
+
     ```bash
     pytest
     ```
