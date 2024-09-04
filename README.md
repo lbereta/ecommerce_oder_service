@@ -39,15 +39,14 @@ Este é um microsserviço de gerenciamento de pedidos para um sistema de e-comme
 ## Testes
 
 Para rodar os testes automatizados, execute:
-
     ```bash
     pytest
     ```
 
 ## Rotas da API
 
-`POST` /api/orders: Cria um novo pedido.
-`GET` /api/orders: Lista todos os pedidos.
-`GET` /api/orders/{id}: Retorna detalhes de um pedido específico.
-`PUT` /api/orders/{id}: Atualiza um pedido específico.
-`DELETE` /api/orders/{id}: Deleta um pedido específico.
+- `POST` /api/orders: Cria um novo pedido.
+- `GET` /api/orders: Lista todos os pedidos.
+- `GET` /api/orders/{id}: Retorna detalhes de um pedido específico.
+- `PUT` /api/orders/{id}: Atualiza um pedido específico.
+- `DELETE` /api/orders/{id}: Deleta um pedido específico.
